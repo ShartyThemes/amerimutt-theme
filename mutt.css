@@ -1,0 +1,513 @@
+
+/*Amerimutt Theme v1.0 or Whatever*/
+
+body {
+	background: #ffffff;
+	color: black;
+	background-image: url("https://files.catbox.moe/pnjp0q.png");
+	background-size: 105px;
+	background-position: bottom right 15px;
+	background-repeat: no-repeat;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 10pt;
+	margin: 0 4px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+a,
+a:visited {
+	color: #000b5c;
+}
+
+a:link:hover, a:visited:hover {
+  color: #ffcc00;
+  }
+
+div.boardlist {
+	margin-top: 3px;
+	font-size: 12pt;
+	color: #ffcc00;
+	font-weight: bold;
+  background-color: #ff0000;
+}
+
+div.boardlist a {
+	text-decoration: none;
+	color: white;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+div.boardlist a:hover {
+	color: #ffcc00;
+}
+
+div.boardlist.bottom {
+	margin-top: 12px;
+	clear: both;
+	padding: 10px;
+	border-radius: 50px;
+	text-align: center;
+}
+
+.desktop-style div.boardlist:nth-child(1) {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-top: 0;
+	z-index: 30;
+	background-color: #ff0000;
+	border-style: none;
+	border-bottom: 0px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: none;
+}
+
+
+img.banner, img.board_image {
+  content: url("https://files.catbox.moe/86yezk.png");
+  border-style: none;
+  max-width: 98% !important;
+  max-height: 200px;
+}
+
+hr {
+	border:4px solid #ffcc00;
+	height: 0;
+	clear: left;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	border-radius: 50px;
+}
+
+h1 {
+	font-family: tahoma;
+	letter-spacing: -1px;
+	font-size: 25pt;
+	margin: 20px;
+	text-align: center;
+	color:#ff0000;
+}
+
+h1 a {
+	color: #ffcc00;
+}
+
+h1:after {
+  content: " or whatever";
+}
+
+.bl {
+	text-decoration: none;
+	color: #ffcc00;
+}
+
+.box.middle {
+	background: #ff0000;
+	color: white;
+	font-weight: bold;		
+	border-style: none;
+	padding-bottom: 10px;
+	border-radius: 20px;
+}
+
+.box.middle h2 {
+	background: #ffcc00;
+	color: white;
+	text-align: center;
+	border-radius: 20px 20px 0px 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.box.left {
+	background: #ff0000;
+	color: white;
+	font-weight: bold;		
+	border-style: none;
+	padding-bottom: 10px;
+	border-radius: 20px;
+}
+
+.box.left h2 {
+	background: #ffcc00;
+	color: white;
+	text-align: center;
+	border-radius: 20px 20px 0px 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.box.right {
+	background: #ff0000;
+	color: white;
+	font-weight: bold;		
+	border-style: none;
+	padding-bottom: 10px;
+	border-radius: 20px;
+}
+
+.box.right h2 {
+	background: #ffcc00;
+	color: white;
+	text-align: center;
+	border-radius: 20px 20px 0px 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.box img {
+	border-radius: 12px;
+	border-color: #ffcc00;
+	border-width: 4px;
+	border-style: solid;
+}
+
+div.ban {
+  background: #ff0000;
+  border-style:none;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+div.ban h2 {
+  background: #ffcc00;
+  color: white;
+  text-align: center;
+}
+
+.intro {
+	margin: 0.5em 0;
+	padding: .2em .4em .2em .4em;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.intro span.subject {
+	color: white;
+	font-weight: bold;
+	text-shadow: black .5px .5px, black -.5px -.5px, black -.5px .5px, black .5px -.5px;
+	font-size: 11pt;
+}
+
+span.quote {
+	color: #ffcc00;
+}
+
+span.quote2 {
+	color: #ff9d00;
+}
+
+@font-face {
+  font-family: ccp;
+  src: url(https://files.catbox.moe/rr3lmy.ttf);
+}
+
+.glow {
+  color: #ffcc00;
+  text-shadow: 0 0 0, 0 0 0;
+  font-family: ccp;
+  font-size: 8pt;
+}
+
+.glow:after {
+  color: #ffcc00;
+  content: " (Warning: This user is a suspected CCP agent.)";
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+.glow:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+}
+
+.glow:hover:before {
+  content: " Translation: ";
+  font-weight: bold;
+}
+
+a:hover, .intro a.post_no:hover {
+	color: #ffcc00 !important;
+}
+
+div.banner {
+	background-color: #ff0000;
+  color: white;
+	border-radius: 50px;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.theme-catalog div.thread img {
+	float: none !important;
+	margin: auto;
+	max-height: 80px;
+	max-width: 120px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+	border: 0px solid;
+	border-radius: 8px;
+}
+
+.theme-catalog div.thread {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	height: 180px;
+	width: 200px;
+	overflow: hidden;
+	position: relative;
+	font-size: 13px;
+	max-height: 300px;
+	background-image: url("https://files.catbox.moe/kes96b.png") !important;
+	background-position: center;
+	background-size: 144px 200px;
+	background-repeat: no-repeat;
+	transition: .2s;
+}
+
+
+.theme-catalog div.thread:hover {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+	transform: scale(1.2);
+	transition: .2s;
+	background-position: center;
+	background-size: 144px 200px;
+	background-repeat: no-repeat;
+}
+
+.theme-catalog div.grid-size-vsmall {
+  background-size: 80%;
+}
+
+form table {
+	margin: auto;
+	background-image: url("https://files.catbox.moe/h2qptj.png");
+	background-position: center;
+	background-size: 400px 500px;
+	background-repeat: no-repeat;
+	overflow: visible;
+	padding: 60px;
+}
+
+form table tr th {
+	background: #ff0000;
+	color: white;
+}
+
+form table input {
+  background-color: #ff0000;
+	padding:4px 4px;
+	border-style: none;
+	border-radius: 50px;
+	color: white;
+	font-weight: bold;
+	box-shadow: none;
+}
+
+#quick-reply th {
+  padding: 2px 0;
+  border: 3px solid #ffcc00 !important;
+}
+
+input[type="text"], input[type="password"], textarea {
+  border-style: none;
+}
+
+.intro span.name {
+  font-size: 0;
+  color: #ffcc00 !important;
+}
+
+.intro span.name:hover {
+  font-size: inherit;
+}
+
+.intro span.name:after {
+  content: "Mutt";
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.intro span.name:hover:after {
+  content: none;
+}
+
+.intro a.email span.name {
+	color: #000b5c;
+}
+
+.intro a.email:hover span.name {
+	color: #ffcc00;
+}
+
+.post-image {
+	display: block;
+	float: left;
+	margin: 5px 20px 10px 20px;
+	border-radius: 12px;
+}
+
+span.heading {
+	color: #860000;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+div.post.reply div.body a {
+	color: #000b5c;
+}
+
+div.post.reply {
+	background-color: #ff0000;
+	margin: .6em 4px;
+	padding: 0.4em 3em 1em 3em;
+	max-width: 94% !important;
+	border-radius: 20px;
+	border-width: 3.5px;
+	border-color:#ffcc00;
+	border-style: solid;
+	outline-color: #ff0000;
+	outline-width: 5px;
+	outline-style: solid;
+}
+
+div.post.reply.highlighted {
+	background: #ffea84;
+	border-color: #ffea84;
+}
+
+div.pages {
+	color: #ffcc00;
+  font-weight: bold;
+	background: #ff0000;
+	display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+	margin: 8px 0 4px 0;
+	border-style: none;
+  border-radius: 50px;
+}
+
+div.pages a {
+  color: white;
+  font-weight: bold;
+}
+
+div.pages a.selected {
+  color: #ffcc00;
+  font-weight: bolder;
+}
+
+div.pages form input {
+	margin: 0 5px;
+	display: inline;
+  border: 2px solid #ffcc00;
+  background: #ff0000;
+  border-radius: 50px;
+  padding: 2px 8px;
+  font-weight: bold;
+  color:white;
+}
+
+div.pages form input:hover{
+  background: #ffcc00;
+}
+
+select {
+	background-color: #ff0000;
+	cursor: default;
+	margin: .3em;
+	padding: 2px 4px;
+	border-style: none;
+	border-radius: 50px;
+	color: white;
+	font-weight: bold;
+	box-shadow: none;
+	font-size: 11pt;
+}
+
+select:focus-visible {
+	outline-style: none;
+}
+
+#delete-fields {
+  border-style: none;
+  background-color: #ffcc00;
+  padding: 6px;
+  padding-left: 10px;
+  border-radius: 50px 20px 20px 50px;
+  margin: 8px;
+}
+
+#report-fields {
+  border-style: none;
+  background-color: #ffcc00;
+  padding: 6px;
+  padding-left: 10px;
+  border-radius: 50px 20px 20px 50px;
+  margin: 8px;
+}
+
+input[type="submit" i] {
+  background-color: #ff0000;
+  color: white;
+  font-weight: bold;
+  padding-block: 4px;
+  padding-inline: 8px;
+  border-style: none;
+  border-radius: 4px;
+}
+
+input[type="text"], input[type="password"], textarea {
+  border-style: none;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+  margin-left: 7px;
+  margin-right: 10px;
+  padding: 2px;
+  padding-left: 8px;
+}
+
+input[type="submit" i]:focus-visible {
+  outline-style: none;
+  border-style: none;
+  background-color: #ffffff;
+  color: #ffcc00;
+}
+
+img[src="/static/spoiler-gem2.png"] {
+  content: url(https://files.catbox.moe/ejm1j2.png) !important;
+	background-repeat: no-repeat;
+}
+
+img[src="https://soyjaks.party/static/front-page//soyberg.png"] {
+  content: url("https://files.catbox.moe/ep2grt.gif") !important;
+	background-repeat: no-repeat;
+}
+
+/*I'm going to eat you.*/
+img[src="https://soyjaks.party/static/front-page//soyberg.png"]:hover {
+  transform: scale(10) translateY(25px);
+  transition: 20s;
+  transition-delay:1s;
+  position: relative;
+  z-index: 1000;
+  cursor: url(https://files.catbox.moe/atzpd5.cur), auto !important;
+}
