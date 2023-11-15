@@ -1,5 +1,5 @@
 
-/*Amerimutt Theme v1.0 or Whatever*/
+/*Amerimutt Theme v1.01 or Whatever*/
 
 body {
 	background: #ffffff;
@@ -497,13 +497,13 @@ img[src="/static/spoiler-gem2.png"] {
 	background-repeat: no-repeat;
 }
 
-img[src="https://soyjaks.party/static/front-page//soyberg.png"] {
-  content: url("https://files.catbox.moe/ep2grt.gif") !important;
+center img {
+	content: url("https://files.catbox.moe/ep2grt.gif") !important;
 	background-repeat: no-repeat;
 }
 
 /*I'm going to eat you.*/
-img[src="https://soyjaks.party/static/front-page//soyberg.png"]:hover {
+center img:hover {
   transform: scale(10) translateY(25px);
   transition: 20s;
   transition-delay:1s;
